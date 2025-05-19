@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 /* shared styles */
-.text-center{
+.text-center {
     text-align: center;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border-radius: 8px;
+    border: none;
+
+    background: rgb(255, 0, 0);
 }
 
 /* banner styles */
@@ -39,4 +55,90 @@
     line-height: 95px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* new year section styles */
+.new-year-section {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sub-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* welcome section styles */
+.welcome {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    margin: 50px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+/* .welcome_text{
+    padding-top: 126px;
+    padding-left: 142px;
+    padding-right: 94.17px;
+} */
+
+.welcome-title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    padding-left: 110px;
+    padding-top: 70px;
+}
+
+.welcome-discription {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 110px;
+
+}
+
+.welcome-btn{
+    margin-top: 30px;
+    margin-left: 145px;
 }
