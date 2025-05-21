@@ -54,7 +54,6 @@
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
-    padding: ;
 }
 
 .banner-sub-title {
@@ -277,6 +276,83 @@
 }
 
 /* holiday section styles */
+.holiday-sale {
+    |width: 1320px;
+    height: 986px;
+    margin: 120px auto;
+}
+
+.hd-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hd-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.hd-sub-title {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hd-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#background-holiday {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    margin-left: 280px;
+}
+
+.gift {
+    position: absolute;
+    top: -38%;
+    left: 30%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+}
+
+.gift-2 {
+    width: 674.82px;
+    height: 577.96px;
+
+}
+
+.discount {
+    width: 305.69px;
+    height: 305.69px;
+    margin-left: 1000px;
+    margin-top: 77px;
+    margin-bottom: 50px;
+}
 
 /* portfolio section styles */
 .portfolio {
@@ -320,8 +396,90 @@
     text-align: left;
 }
 
-.portfolio-images{
+.portfolio-images {
     display: flex;
     gap: 24px;
     margin-top: 24px;
+}
+
+/* subscribe section styles */
+
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    gap: 20px;
+}
+
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+
+.mail-img {
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-button-wrapper {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin: 50px auto;
+}
+
+.input-button-wrapper input {
+    flex: 1;
+    padding: 20px;
+    font-size: 16px;
+    /* border: 1px solid #ccc;
+    border-right: none; */
+    border: none;
+    border-radius: 40px 0 0 40px;
+    outline: none;
+}
+
+.input-button-wrapper button {
+    padding: 20px 50px;
+    font-size: 16px;
+    /* border: 1px solid #ccc;
+    border-left: none; */
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 40px 40px 0;
+    transition: background-color 0.3s;
+}
+
+.input-button-wrapper button:hover {
+    background-color: #c0c0c0;
 }
